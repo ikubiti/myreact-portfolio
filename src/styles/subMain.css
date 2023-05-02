@@ -1,9 +1,3 @@
-/* Get the attention the user when hovering over an element */
-.main-header:hover {
-	font-style: italic;
-	font-size: larger;
-	color: rgb(129, 217, 129);
-}
 
 /* Decorate any text */
 .outline-text {
@@ -17,37 +11,8 @@
 	color: rgb(129, 217, 129);
 }
 
-/* Hover behavior */
-.quiz-button:hover {
-	color: yellowgreen;
-	font-weight: bold;
-	/* font-size: 4rem; */
-	background-color: blue;
-}
-
 .text-deco {
 	color: var(--bs-white);
-	font-size: larger;
+	font-style: italic;
 	text-shadow: -1px 0 blue, 0 1px coral, 1px 0 coral, 0 -1px coral;
 }
-
-/* Main introduction heading style */
-.instr-header {
-	text-align: center;
-	margin: 2rem auto;
-	padding-top: 0px;
-	color: hsl(0, 0%, 10%);
-	text-shadow: 1px 1px 2px white, 0 0 25px #2aefcb, 0 0 5px white;
-}
-
-/* Improved header with text shadow */
-.main-header {
-	padding: 20px;
-	padding-top: 0px;
-	color: white;
-	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-
-/* --light-violet: rgb(210, 149, 254);
- --muted-green: rgb(129, 217, 129);
- --midtone-blue: rgb(58, 176, 254); */
