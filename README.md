@@ -58,6 +58,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots
 
+- [Link to my deployed portfolio](https://ikubiti.github.io/myreact-portfolio/)
+
 ![Landing Page](./images/Landing-Page-1.png)
 
 While not logged in, the visitor can perform a search for their favorite books. 
