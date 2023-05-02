@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // Using conditional rendering
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
@@ -26,9 +26,9 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
+      {/* Pass the current page as and callback function as props to NavTabs component */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
+      {/* RenderPage current page  */}
       {renderPage()}
     </div>
   );
