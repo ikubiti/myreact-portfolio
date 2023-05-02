@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="w-100 mt-auto bg-secondary p-4">
-      <div className="container text-center mb-5">
+    <footer className="fixed-bottom  w-100 mt-auto bg-secondary p-4">
+      <div className="container text-center mb-2">
         <h4>
           Made with{' '}
           <span
