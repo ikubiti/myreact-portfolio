@@ -1,4 +1,5 @@
 import React from 'react';
+const projects = require('../../utils/projects.json');
 
 export default function Home() {
   return (
@@ -16,6 +17,15 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+
+      {/* projects.map((project) => {
+
+      }) */}
+
+      list={projects.map((project, index) => ({
+        title: project.title,
+        image: project.image,
+      }))}
     </div>
   );
 }

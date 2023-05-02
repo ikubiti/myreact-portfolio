@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Introduction to Web Development",
+    "description": "Everything you need to know about building websites with HTML, CSS, and JavaScript.",
+    "image1": "05/20/2023",
+    "image2": "11/01/2023",
+    "image3": 2000,
+    "image4": "zcordeiro@knowledgehub.edu"
+  },
+  {
+    "title": "Database Design with SQL",
+    "description": "Introduction to relational databases, MySQL, and SQL.",
+    "image1": "06/01/2023",
+    "image2": "09/15/2023",
+    "image3": 2500,
+    "image4": "cgirard@knowledgehub.edu"
+  },
+  {
+    "title": "NoSQL Databases",
+    "description": "NoSQL databases offers flexibility that SQL databases can't offer, Learn the latest and greatest in NoSQL database design.",
+    "image1": "08/06/2023",
+    "image2": "12/20/2023",
+    "image3": 3000,
+    "image4": "ikubiti@knowledgehub.edu"
+  },
+  {
+    "title": "Economics 101",
+    "description": "Learn about Economics",
+    "image1": "05/15/2023",
+    "image2": "09/15/2023",
+    "image3": 2300,
+    "image4": "zcordeiro@knowledgehub.edu"
+  },
+  {
+    "title": "Higher Order Functions",
+    "description": "Fundamentals of Higher Order Functions",
+    "image1": "07/20/2023",
+    "image2": "10/01/2023",
+    "image3": 2200,
+    "image4": "cgirard@knowledgehub.edu"
+  },
+  {
+    "title": "Differential Equations",
+    "description": "Learn about Differential Equations",
+    "image1": "07/01/2023",
+    "image2": "08/15/2023",
+    "image3": 2400,
+    "image4": "ikubiti@knowledgehub.edu"
+  },
+  {
+    "title": "JavaScript - The Complete Guide",
+    "description": "Learn JavaScript from the ground up.",
+    "image1": "06/20/2023",
+    "image2": "12/15/2023",
+    "image3": 3000,
+    "image4": "zcordeiro@knowledgehub.edu"
+  },
+  {
+    "title": "NodeJs - The Complete Guide",
+    "description": "Learn paradigms of NodeJs such as asynchronous programming, event driven programming, MVC, REST APIs, GraphQL, Deno, and more.",
+    "image1": "09/20/2023",
+    "image2": "11/01/2023",
+    "image3": 2200,
+    "image4": "ikubiti@knowledgehub.edu"
+  },
+  {
+    "title": "Laravel: A Guide for Beginners",
+    "description": "Learn the essential concepts of Laravel, the most popular PHP framework.",
+    "image1": "08/15/2023",
+    "image2": "12/10/2023",
+    "image3": 2500,
+    "image4": "zcordeiro@knowledgehub.edu"
+  }
+]
