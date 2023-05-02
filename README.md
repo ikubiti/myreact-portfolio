@@ -58,11 +58,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots
 
-The application is hosted on heroku at [https://fierce-cliffs-92471.herokuapp.com/](https://fierce-cliffs-92471.herokuapp.com/)
-
-Once there, the landing page is presented as below;
-
-
 ![Landing Page](./images/Landing-Page-1.png)
 
 While not logged in, the visitor can perform a search for their favorite books. 
