@@ -4,6 +4,7 @@
 .bg-about {
 	background-color: rgb(233, 223, 232);
 }
+
 .featurette-divider {
 	margin: 5rem 0;
 }
@@ -14,6 +15,7 @@
 	line-height: 1;
 	letter-spacing: -.05rem;
 }
+
 /* normal transition */
 .size-images {
 	/* max-width: 400px !important; */
@@ -21,7 +23,8 @@
 }
 
 .image-container {
-	margin: 20px auto;
+	margin: 25px auto;
+		max-width: 300px;
 }
 
 .image-container:hover .size-images {
@@ -34,15 +37,12 @@
 
 .image-container:hover .normal-hide {
 	display: block;
-	transform: scale(1.2) rotate(0.5deg);
+	transform: scale(1.4) rotate(0.5deg);
 }
 
 .contact {
 	max-width: 900px !important;
 	margin-top: 35px;
-	/* margin: 20px auto;
-	display: block;
-	width: 45%; */
 }
 
 .form {
