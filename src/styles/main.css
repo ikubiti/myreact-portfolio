@@ -1,15 +1,58 @@
 /* Featurettes
 ------------------------- */
 
+.bg-about {
+	background-color: rgb(233, 223, 232);
+}
 .featurette-divider {
 	margin: 5rem 0;
-	/* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
 	font-weight: 600;
 	line-height: 1;
-	/* rtl:remove */
 	letter-spacing: -.05rem;
+}
+/* normal transition */
+.size-images {
+	/* max-width: 400px !important; */
+	transition: all .5s ease-in-out;
+}
+
+.image-container {
+	margin: 20px auto;
+}
+
+.image-container:hover .size-images {
+	display: none;
+}
+
+.normal-hide {
+	display: none;
+}
+
+.image-container:hover .normal-hide {
+	display: block;
+	transform: scale(1.2) rotate(0.5deg);
+}
+
+.contact {
+	max-width: 900px !important;
+	margin-top: 35px;
+	/* margin: 20px auto;
+	display: block;
+	width: 45%; */
+}
+
+.form {
+	margin: 20px;
+}
+
+.form input {
+	display: block;
+	/* margin-top: 10px;
+	margin-bottom: 10px; */
+	margin: 15px auto;
+	width: 100%;
 }

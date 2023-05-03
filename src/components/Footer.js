@@ -3,8 +3,8 @@ import '../styles/subMain.css';
 
 const Footer = () => {
   return (
-    <footer className="bottom  w-100 mt-auto bg-dark p-4">
-      <div className="container text-center mb-3">
+    <footer className="fixed-bottom  w-100 mt-3 bg-dark p-2">
+      <div className="container text-center mb-1">
 
         <h4 className="text-white text-deco">
           &copy; 2023 &middot;
