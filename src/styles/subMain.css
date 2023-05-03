@@ -1,0 +1,18 @@
+
+/* Decorate any text */
+.outline-text {
+	font-size: 3rem;
+	text-shadow: -1px 0 coral, 0 1px coral, 1px 0 coral, 0 -1px coral;
+}
+
+.outline-text:hover {
+	font-style: italic;
+	font-size: 4rem;
+	color: rgb(129, 217, 129);
+}
+
+.text-deco {
+	color: var(--bs-white);
+	font-style: italic;
+	text-shadow: -1px 0 blue, 0 1px coral, 1px 0 coral, 0 -1px coral;
+}

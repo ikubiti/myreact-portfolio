@@ -1,4 +1,8 @@
 import React from 'react';
+// import '../../styles/main.css';
+const projects = require('../../utils/projects.json');
+
+console.log(projects);
 
 export default function Home() {
   return (
