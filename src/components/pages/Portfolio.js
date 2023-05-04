@@ -2,11 +2,6 @@ import React from 'react';
 // import images from '../images';
 const projects = require('../../utils/projects.json');
 
-console.log(projects);
-const overPicture = 'bg-1';
-// const mainPicture = 'knowledge_hub.png';
-// background - image: url('../images/knowledge_hub.png')
-
 export default function Home() {
   return (
     <div className="container px-4 py-5 mb-5">

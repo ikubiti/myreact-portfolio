@@ -11,7 +11,7 @@ export default function About() {
       <div className="row featurette my-5">
         <div className="col-md-7 order-md-2">
           <h1 className="featurette-heading mt-5">About Me</h1>
-          <p className="lead">I am a full stack developer with competencies in Javascript, Nodejs, SQL, etc.</p>
+          <p className="lead">I am a Full Stack Web developer with competencies in technologies such as React, GraphQL, MongoDb, SQL, Javascript, Java, C++, HTML, CSS, etc.</p>
           <p className="lead">I love solving problems, and coding offers me a
             cost-effective approach to implementing solutions to
             real-world challenges. I have built the technical competencies required to
