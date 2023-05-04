@@ -4,6 +4,7 @@ export default function Blog() {
   return (
     <div>
       <h1>Resume</h1>
+      <a href='#'>Download</a>
       <ul>
         <li>
           Web development Technologies - HTML, CSS,

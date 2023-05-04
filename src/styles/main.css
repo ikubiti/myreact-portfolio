@@ -56,3 +56,50 @@
 	margin: 15px auto;
 	width: 100%;
 }
+.rounded-4 {
+	border-radius: .5rem;
+}
+
+.rounded-5 {
+	border-radius: 1rem;
+}
+
+.text-shadow-1 {
+	text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+	text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+	text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+/* Project 1 */
+.bg-1 {
+	background-image: url('../images/knowledge_hub.png');
+}
+
+
+/* Project 2 */
+.bg-2 {
+	color: rgb(0, 0, 0);
+	background-image: url('../images/booksearch.png');
+}
+
+.bg-3 {
+	color: rgb(0, 0, 0);
+	background-image: url('../images/jetset_profile.png');
+}
+
+.bg-15 {
+	background-image: url('../images/password_generator.png');
+}

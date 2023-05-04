@@ -1,65 +1,65 @@
 [
   {
-    "title": "Introduction to Web Development",
-    "description": "Everything you need to know about building websites with HTML, CSS, and JavaScript.",
-    "link": "05/20/2023",
+    "title": "Knowledge Hub - MERN Stack",
+    "deployment": "https://shielded-thicket-93184.herokuapp.com/",
+    "github": "05/20/2023",
     "image": "11/01/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
-    "title": "Database Design with SQL",
-    "description": "Introduction to relational databases, MySQL, and SQL.",
-    "link": "06/01/2023",
-    "image": "09/15/2023",
-    "alt": "Output of the Password Generator"
+    "title": "Book Search Engine - MERN Stack",
+    "deployment": "https://fierce-cliffs-92471.herokuapp.com/",
+    "github": "https://github.com/ikubiti/booksearchengine",
+    "image": "bg-2",
+    "color": "text-danger"
   },
   {
     "title": "NoSQL Databases",
-    "description": "NoSQL databases offers flexibility that SQL databases can't offer, Learn the latest and greatest in NoSQL database design.",
-    "link": "08/06/2023",
+    "deployment": "NoSQL databases offers flexibility that SQL databases can't offer, Learn the latest and greatest in NoSQL database design.",
+    "github": "08/06/2023",
     "image": "12/20/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
     "title": "Economics 101",
-    "description": "Learn about Economics",
-    "link": "05/15/2023",
+    "deployment": "Learn about Economics",
+    "github": "05/15/2023",
     "image": "09/15/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
     "title": "Higher Order Functions",
-    "description": "Fundamentals of Higher Order Functions",
-    "link": "07/20/2023",
+    "deployment": "Fundamentals of Higher Order Functions",
+    "github": "07/20/2023",
     "image": "10/01/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
     "title": "Differential Equations",
-    "description": "Learn about Differential Equations",
-    "link": "07/01/2023",
+    "deployment": "Learn about Differential Equations",
+    "github": "07/01/2023",
     "image": "08/15/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
     "title": "JavaScript - The Complete Guide",
-    "description": "Learn JavaScript from the ground up.",
-    "link": "06/20/2023",
+    "deployment": "Learn JavaScript from the ground up.",
+    "github": "06/20/2023",
     "image": "12/15/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
     "title": "NodeJs - The Complete Guide",
-    "description": "Learn paradigms of NodeJs such as asynchronous programming, event driven programming, MVC, REST APIs, GraphQL, Deno, and more.",
-    "link": "09/20/2023",
+    "deployment": "Learn paradigms of NodeJs such as asynchronous programming, event driven programming, MVC, REST APIs, GraphQL, Deno, and more.",
+    "github": "09/20/2023",
     "image": "11/01/2023",
-    "alt": "Output of the Password Generator"
+    "color": "Output of the Password Generator"
   },
   {
     "title": "Password Generator",
-    "description": "Learn the essential concepts of Laravel, the most popular PHP framework.",
-    "link": "https://ikubiti.github.io/password-generator/",
+    "deployment": "https://ikubiti.github.io/password-generator/",
+    "github": "https://ikubiti.github.io/password-generator/",
     "image": "password_generator.jpeg",
-    "alt": "Output of the Password Generator"
+    "color": "text-primary"
   }
 ]
