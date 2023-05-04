@@ -1,65 +1,65 @@
 [
   {
-    "title": "Knowledge Hub - MERN Stack",
+    "title": "Knowledge Hub",
     "deployment": "https://shielded-thicket-93184.herokuapp.com/",
-    "github": "05/20/2023",
-    "image": "11/01/2023",
-    "color": "Output of the Password Generator"
+    "github": "https://github.com/TheMernMachine/Knowledge-Hub",
+    "image": "bg-1",
+    "color": "text-primary"
   },
   {
-    "title": "Book Search Engine - MERN Stack",
+    "title": "Book Search Engine",
     "deployment": "https://fierce-cliffs-92471.herokuapp.com/",
     "github": "https://github.com/ikubiti/booksearchengine",
     "image": "bg-2",
     "color": "text-danger"
   },
   {
-    "title": "NoSQL Databases",
-    "deployment": "NoSQL databases offers flexibility that SQL databases can't offer, Learn the latest and greatest in NoSQL database design.",
-    "github": "08/06/2023",
-    "image": "12/20/2023",
-    "color": "Output of the Password Generator"
+    "title": "Jetset Social",
+    "deployment": "https://serene-beach-93535.herokuapp.com/",
+    "github": "https://github.com/ikubiti/Jet-Set-Social",
+    "image": "bg-3",
+    "color": "text-primary"
   },
   {
-    "title": "Economics 101",
-    "deployment": "Learn about Economics",
-    "github": "05/15/2023",
-    "image": "09/15/2023",
-    "color": "Output of the Password Generator"
+    "title": "MVC Tech Blog",
+    "deployment": "https://cryptic-atoll-98300.herokuapp.com/",
+    "github": "https://github.com/ikubiti/mvc-tech-blog",
+    "image": "bg-4",
+    "color": "text-danger"
   },
   {
-    "title": "Higher Order Functions",
-    "deployment": "Fundamentals of Higher Order Functions",
-    "github": "07/20/2023",
-    "image": "10/01/2023",
-    "color": "Output of the Password Generator"
+    "title": "Note Taker",
+    "deployment": "https://note-taker-express101.herokuapp.com/",
+    "github": "https://github.com/ikubiti/note-taker",
+    "image": "bg-5",
+    "color": "text-primary"
   },
   {
-    "title": "Differential Equations",
-    "deployment": "Learn about Differential Equations",
-    "github": "07/01/2023",
-    "image": "08/15/2023",
-    "color": "Output of the Password Generator"
+    "title": "Weather Dashboard",
+    "deployment": "https://ikubiti.github.io/weather-dashboard/",
+    "github": "https://github.com/ikubiti/weather-dashboard",
+    "image": "bg-6",
+    "color": "text-danger"
   },
   {
-    "title": "JavaScript - The Complete Guide",
-    "deployment": "Learn JavaScript from the ground up.",
-    "github": "06/20/2023",
-    "image": "12/15/2023",
-    "color": "Output of the Password Generator"
+    "title": "Work Day Scheduler",
+    "deployment": "https://ikubiti.github.io/work-day-scheduler/",
+    "github": "https://github.com/ikubiti/work-day-scheduler",
+    "image": "bg-7",
+    "color": "text-primary"
   },
   {
-    "title": "NodeJs - The Complete Guide",
-    "deployment": "Learn paradigms of NodeJs such as asynchronous programming, event driven programming, MVC, REST APIs, GraphQL, Deno, and more.",
-    "github": "09/20/2023",
-    "image": "11/01/2023",
-    "color": "Output of the Password Generator"
+    "title": "Code Quiz",
+    "deployment": "https://ikubiti.github.io/code-quiz/",
+    "github": "https://github.com/ikubiti/code-quiz",
+    "image": "bg-8",
+    "color": "text-danger"
   },
   {
     "title": "Password Generator",
     "deployment": "https://ikubiti.github.io/password-generator/",
-    "github": "https://ikubiti.github.io/password-generator/",
-    "image": "password_generator.jpeg",
+    "github": "https://github.com/ikubiti/password-generator",
+    "image": "bg-9",
     "color": "text-primary"
   }
 ]
