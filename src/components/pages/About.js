@@ -1,5 +1,7 @@
 import React from 'react';
 
+const mainPicture = 'Isoyor_3.jpeg';
+const overPicture = 'Isoyor_5.jpeg';
 
 export default function About() {
   return (
@@ -8,6 +10,7 @@ export default function About() {
       <div className="row featurette my-5">
         <div className="col-md-7 order-md-2">
           <h1 className="featurette-heading mt-5">About Me</h1>
+          <p className="lead">I am a Full Stack Web developer with competencies in technologies such as React, GraphQL, MongoDb, SQL, Javascript, Java, C++, HTML, CSS, etc.</p>
           <p className="lead">I love solving problems, and coding offers me a
             cost-effective approach to implementing solutions to
             real-world challenges. I have built the technical competencies required to
@@ -19,8 +22,8 @@ export default function About() {
         </div>
         <div className="col-md-5 order-md-1 image-container">
           <div className="image-container">
-            <img src={require("../../images/Isoyor_3.jpeg")} alt="{A Head Shot of Me}" className="img-fluid rounded float-right mx-auto size-images" />
-            <img src={require("../../images/Isoyor_5.jpeg")} alt="{A Head Shot of Me}" className="img-fluid mx-auto normal-hide" />
+            <img src={require(`../../images/${mainPicture}`)} alt="{A Head Shot of Me}" className="img-fluid rounded float-right mx-auto size-images" />
+            <img src={require(`../../images/${overPicture}`)} alt="{A Head Shot of Me}" className="img-fluid mx-auto normal-hide" />
           </div>         
         </div>
       </div>

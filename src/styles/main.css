@@ -4,6 +4,7 @@
 .bg-about {
 	background-color: rgb(233, 223, 232);
 }
+
 .featurette-divider {
 	margin: 5rem 0;
 }
@@ -14,6 +15,7 @@
 	line-height: 1;
 	letter-spacing: -.05rem;
 }
+
 /* normal transition */
 .size-images {
 	/* max-width: 400px !important; */
@@ -21,7 +23,8 @@
 }
 
 .image-container {
-	margin: 20px auto;
+	margin: 25px auto;
+	max-width: 300px;
 }
 
 .image-container:hover .size-images {
@@ -34,15 +37,12 @@
 
 .image-container:hover .normal-hide {
 	display: block;
-	transform: scale(1.2) rotate(0.5deg);
+	transform: scale(1.4) rotate(0.5deg);
 }
 
 .contact {
 	max-width: 900px !important;
 	margin-top: 35px;
-	/* margin: 20px auto;
-	display: block;
-	width: 45%; */
 }
 
 .form {
@@ -55,4 +55,133 @@
 	margin-bottom: 10px; */
 	margin: 15px auto;
 	width: 100%;
+}
+
+.rounded-4 {
+	border-radius: .5rem;
+}
+
+.rounded-5 {
+	border-radius: 1rem;
+}
+
+.text-shadow-1 {
+	text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+	text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+	text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+
+.bg-min {
+	min-height: 400px;
+}
+
+.bg-min:hover {
+	animation: shake 0.8s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+.bg-mini {
+	transform: scale(1.2);
+	transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.5s;
+}
+
+/* Project 1 */
+.bg-1 {
+	background-image: url('../images/knowledge_hub.png');
+}
+
+/* Project 2 */
+.bg-2 {
+	background-image: url('../images/booksearch.png');
+}
+
+.bg-3 {
+	background-image: url('../images/jetset_profile.png');
+}
+
+.bg-4 {
+	background-image: url('../images/tech_blog.png');
+}
+
+.bg-5 {
+	background-image: url('../images/note_taker.png');
+}
+
+.bg-6 {
+	background-image: url('../images/weather_dashboard.png');
+}
+
+.bg-7 {
+	background-image: url('../images/day_scheduler.png');
+}
+
+.bg-8 {
+	background-image: url('../images/code_quiz.png');
+}
+
+.bg-9 {
+	background-image: url('../images/password_generator.png');
 }
