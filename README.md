@@ -60,39 +60,24 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - [Link to my deployed portfolio](https://ikubiti.github.io/myreact-portfolio/)
 
-![Landing Page](./images/Landing-Page-1.png)
+![Landing Page](./images/about_me_1.png)
 
-While not logged in, the visitor can perform a search for their favorite books. 
+ 
 
-![Searching for Great Expectations while not logged in](./images/Search-no-log-2.png)
-
-The visitor can follow the links on the page to go to Google for more information but they can't save any book from their search.
-
-![Search results with links but no save option](./images/Search-no-save-3.png)
-
-If the visitor clicks the login/Sign Up navbar link, they get presented with a modal for signing up or logging in
-![Sign Up and Login modal](./images/Modal-Login-4.png)
-
-The sign up tab allows the user to provide their username, email, and password to create an account.
-
-![Creating a new user account](./images/signup-create-user-5.png)
-
-Once the sign up is successful, the user get redirected to the search page with new options to view their saved books.
-
-![User login page](./images/Login-new-user-6.png)
-
-Once logged in, the user can save any favorite book from the search.
-
-![Saving favorite books](./images/save-books-8.png)
-
-The user can view their previously saved books from their search.
-
-![Saved books from previous search](./images/Saved-books-9.png)
+![The portfolio with selected projects](./images/projects_2.png)
 
 
-The user can delete any book or follow a link to purchase the book at Google Books. 
 
-![Options for Saved books](./images/Saved-books-options-10.png)
+![The footer with links to github, linkedin, and twitter](./images/footer_links_3.png)
+
+
+
+![The contact me page with the contact form](./images/contact_me_4.png)
+
+
+
+![The resume page](./images/resume_page_5.png)
+
 
 
 ## Questions
