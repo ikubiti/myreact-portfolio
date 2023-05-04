@@ -2,7 +2,6 @@ import React from 'react';
 
 const mainPicture = 'Isoyor_3.jpeg';
 const overPicture = 'Isoyor_5.jpeg';
-// "../../images/Isoyor_3.jpeg"
 
 export default function About() {
   return (
