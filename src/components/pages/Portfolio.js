@@ -9,28 +9,61 @@ const overPicture = 'bg-1';
 
 export default function Home() {
   return (
-    <div className="container px-4 py-5">
+    <div className="container px-4 py-5 mb-5">
       <h1 className="pb-2 border-bottom">My Projects</h1>
 
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div className="col">
-          <a
-            href='https://www.twitter.com/ikubiti'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className={`card card-cover h-100 overflow-hidden bg-dark rounded-5 shadow-lg ${overPicture}`}>
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-danger ">Jetset Social</h2>
-                <ul className="d-flex list-unstyled mt-auto">
-                  <li className="me-auto">
-                    <img src={require(`../../images/isoyor_icon.png`)} alt="Bootstrap" width="32" height="32" className="rounded-circle border border-white" />
-                  </li>
-                </ul>
+        {projects.map((project) => {
+          return (
+            <div className="col mb-5">
+              <div className="m-2 py-2">
+                <a
+                  href={`${project.deployment}`}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                ><h1>{`${project.title}`}</h1></a>
+              </div>
+              <div className={`card card-cover h-100 overflow-hidden bg-dark rounded-5 shadow-lg ${project.image}`}>
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <a
+                    href={`${project.deployment}`}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  ><h2 className={`pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ${project.color}`}>  </h2></a>
+                  <ul className="d-flex list-unstyled mt-auto">
+                    <a
+                      href={`${project.github}`}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <li className="me-auto">
+                        <img src={require(`../../images/isoyor_icon.png`)} alt="app repo" width="32" height="32" className="rounded-circle border border-primary" />
+                      </li>
+                    </a>
+                  </ul>
+                </div>
               </div>
             </div>
-          </a>
-        </div>
+          );
+        })}
+        {/* </div> */}
+
+        {/* <a
+          href='https://www.twitter.com/ikubiti'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <div className={`card card-cover h-100 overflow-hidden bg-dark rounded-5 shadow-lg ${overPicture}`}>
+            <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-danger ">Jetset Social</h2>
+              <ul className="d-flex list-unstyled mt-auto">
+                <li className="me-auto">
+                  <img src={require(`../../images/isoyor_icon.png`)} alt="Bootstrap" width="32" height="32" className="rounded-circle border border-white" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
 
         <div className="col">
           <a
@@ -125,7 +158,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
       </div>
