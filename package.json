@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ikubiti.github.io/myreact-portfolio",
   "dependencies": {
+    "@hookform/resolvers": "^3.1.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
@@ -11,8 +12,10 @@
     "gh-pages": "^5.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-hook-form": "^7.43.9",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "zod": "^3.21.4"
   },
   "scripts": {
     "predeploy": "npm run build",

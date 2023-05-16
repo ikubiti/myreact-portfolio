@@ -7,30 +7,32 @@ import Contact from './pages/Contact';
 import '../styles/main.css';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('About');
 
-  // Using conditional rendering
-  const renderPage = () => {
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    return <Contact />;
-  };
+    // Using conditional rendering
+    const renderPage = () => {
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        return <Contact />;
+    };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => setCurrentPage(page);
 
-  return (
-    <div>
-      {/* Pass the current page as and callback function as props to NavTabs component */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* RenderPage current page  */}
-      {renderPage()}
-    </div>
-  );
+    return (
+        <div>
+            <NavTabs
+                currentPage={currentPage}
+                handlePageChange={handlePageChange}
+            />
+            {/* RenderPage current page  */}
+            {renderPage()}
+        </div>
+    );
 }
