@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../images/Resume_Isoyor_Kubiti.pdf';
+import resume from '../../images/Isoyor_Kubiti_Resume.pdf';
 
 const proficiencies = require('../../utils/proficiencies.json');
 
@@ -14,7 +14,7 @@ export default function Blog() {
                     rel='noreferrer'
                     download
                 >
-                    Resume
+                    Download Resume
                 </a>
             </h1>
 
