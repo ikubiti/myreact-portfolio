@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myreact-portfolio/static/css/main.06579045.css",
-    "main.js": "/myreact-portfolio/static/js/main.d59c79fe.js",
+    "main.css": "/myreact-portfolio/static/css/main.389f8a91.css",
+    "main.js": "/myreact-portfolio/static/js/main.8ad70b96.js",
     "static/media/secondSS.png": "/myreact-portfolio/static/media/secondSS.0a881e37bf6e3bd998cd.png",
     "static/media/knowledge_hub.png": "/myreact-portfolio/static/media/knowledge_hub.1e015965cc0bd618a0ef.png",
     "static/media/tech_blog.png": "/myreact-portfolio/static/media/tech_blog.1383ec8482368d604bc8.png",
@@ -14,13 +14,14 @@
     "static/media/password_generator.png": "/myreact-portfolio/static/media/password_generator.2105cd0f10f198ce44c6.png",
     "static/media/code_quiz.png": "/myreact-portfolio/static/media/code_quiz.bc52b4c8c40fbf8b34dd.png",
     "static/media/note_taker.png": "/myreact-portfolio/static/media/note_taker.3e14115b190442995c55.png",
+    "static/media/Resume_Isoyor_Kubiti.pdf": "/myreact-portfolio/static/media/Resume_Isoyor_Kubiti.651a6969684c0f326567.pdf",
     "static/media/isoyor_icon.png": "/myreact-portfolio/static/media/isoyor_icon.e305999f6fafd58f7167.png",
     "index.html": "/myreact-portfolio/index.html",
-    "main.06579045.css.map": "/myreact-portfolio/static/css/main.06579045.css.map",
-    "main.d59c79fe.js.map": "/myreact-portfolio/static/js/main.d59c79fe.js.map"
+    "main.389f8a91.css.map": "/myreact-portfolio/static/css/main.389f8a91.css.map",
+    "main.8ad70b96.js.map": "/myreact-portfolio/static/js/main.8ad70b96.js.map"
   },
   "entrypoints": [
-    "static/css/main.06579045.css",
-    "static/js/main.d59c79fe.js"
+    "static/css/main.389f8a91.css",
+    "static/js/main.8ad70b96.js"
   ]
 }
