@@ -14,7 +14,7 @@ export default function Blog() {
                     rel='noreferrer'
                     download
                 >
-                    Download Resume
+                    Resume
                 </a>
             </h1>
 
