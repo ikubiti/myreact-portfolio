@@ -1,99 +1,116 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import React, { useState, useEffect } from 'react';
+import { useForm } from 'react-hook-form';
+import { z } from 'zod';
+import { zodResolver } from '@hookform/resolvers/zod';
+
+// This is a schema validation using zod
+const schema = z.object({
+    userName: z
+        .string()
+        .min(3, { message: 'Name must be at least 3 characters long' }),
+    email: z
+        .string()
+        .min(1, { message: 'Please your email is required' })
+        .email({ message: 'Invalid email' }),
+    message: z
+        .string()
+        .min(3, { message: 'Message must be at least 3 characters long' }),
+});
 
 export default function Contact() {
+    const {
+        register,
+        handleSubmit,
+        reset,
+        formState: { errors, isValid, isSubmitSuccessful },
+    } = useForm({ resolver: zodResolver(schema) });
 
-  const [email, setEmail] = useState('');
-  const [userName, setUserName] = useState('');
-  const [prompt, setPrompt] = useState('Your Message');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
-  const [displayFeedback, setDisplayFeedback] = useState(false);
+    const [prompt, setPrompt] = useState('Your Message');
+    const [displayFeedback, setDisplayFeedback] = useState(false);
 
+    const handleFormSubmit = (data) => {
+        // console.log(data);
+        setPrompt('Thank you!');
+        setDisplayFeedback(true);
+    };
 
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+    useEffect(() => {
+        if (isSubmitSuccessful) {
+            reset({ userName: '', email: '', message: '' });
+        }
+    }, [isSubmitSuccessful, reset]);
 
-    console.log('do we get here?');
-    // Based on the input type, we set the state of either email, username, and message
-    if (inputType === 'email') {
-      setEmail(inputValue);
-    } else if (inputType === 'userName') {
-      setUserName(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
+    return (
+        <div className='container contact mb-5'>
+            <div className='py-3 text-center'>
+                <h1>Contact Me</h1>
+            </div>
 
-    if (errorMessage !== '') {
-      setErrorMessage('');
-    }
-  };
+            {displayFeedback && (
+                <p className='lead px-4'>
+                    Thanks for contacting me. Your message has been received.
+                    Have a great day!
+                </p>
+            )}
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+            <div>
+                <form
+                    className='form'
+                    onSubmit={handleSubmit(handleFormSubmit)}
+                >
+                    <div className='input-group'>
+                        <input
+                            {...register('userName')}
+                            id='userName'
+                            type='text'
+                            placeholder='...full name'
+                            className='form-control'
+                        />
+                        {errors.userName && (
+                            <p className='text-danger'>
+                                {errors.userName.message}
+                            </p>
+                        )}
+                    </div>
+                    <div className='input-group'>
+                        <input
+                            {...register('email')}
+                            id='email'
+                            type='email'
+                            placeholder='...email address'
+                            className='form-control'
+                        />
+                        {errors.email && (
+                            <p className='text-danger'>
+                                {errors.email.message}
+                            </p>
+                        )}
+                    </div>
+                    <div className='input-group formArea'>
+                        <span className='input-group-text'>{prompt}</span>
+                        <textarea
+                            {...register('message')}
+                            className='form-control'
+                            aria-label='With textarea'
+                            id='message'
+                            placeholder='...'
+                        ></textarea>
+                        {errors.message && (
+                            <p className='text-danger'>
+                                {errors.message.message}
+                            </p>
+                        )}
+                    </div>
 
-    // Check all user input
-    if (!userName || !email || !message) {
-      setErrorMessage('Please fill out the form completely');
-      return;
-    }
-
-    // Validate email
-    if (!validateEmail(email)) {
-      setErrorMessage('Please, the provided Email is invalid!');
-      return;
-    }
-
-    // Clear out the input after a successful user submission.
-    setUserName('');
-    setPrompt('Thank you!');
-    setMessage('');
-    setEmail('');
-    setDisplayFeedback(true);
-  };
-
-  return (
-    <div className="container contact mb-5">
-      <div class="py-3 text-center">
-        <h1>Contact Me</h1>
-      </div>
-
-      {displayFeedback && <p className="lead px-4">Thanks {userName} for contacting me. Your message has been received. Have a great day! </p>}
-
-      <div >
-        <form className="form">
-          <input
-            value={userName}
-            name="userName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="...full name"
-          />
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="...email address"
-          />
-          <div className="input-group">
-            <span className="input-group-text">{prompt}</span>
-            <textarea class="form-control"
-              aria-label="With textarea"
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              placeholder="..."
-            ></textarea>
-          </div>
-
-          <button className="w-100 btn btn-primary btn-lg mt-5" type="button" onClick={handleFormSubmit}>Send</button>
-        </form>
-        {errorMessage && <div><p className="error-text">{errorMessage}</p></div>}
-      </div>
-    </div>
-  );
+                    <button
+                        disabled={!isValid}
+                        className='w-100 btn btn-primary btn-lg mt-5'
+                        type='submit'
+                    >
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+    );
 }

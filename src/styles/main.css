@@ -53,7 +53,13 @@
 	display: block;
 	/* margin-top: 10px;
 	margin-bottom: 10px; */
-	margin: 15px auto;
+	margin: 10px auto;
+	width: 100%;
+}
+
+.formArea {
+	display: block;
+	margin: 10px auto;
 	width: 100%;
 }
 
@@ -147,6 +153,8 @@
 	transform: scale(1.2);
 	transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.5s;
 }
+
+/* backgroundImage: `url("https://via.placeholder.com/500")` */
 
 /* Project 1 */
 .bg-1 {
