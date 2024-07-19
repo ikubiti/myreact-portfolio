@@ -1,8 +1,8 @@
 [
   {
     "title": "Knowledge Hub",
-    "deployment": "https://shielded-thicket-93184.herokuapp.com/",
-    "github": "https://github.com/TheMernMachine/Knowledge-Hub",
+    "deployment": "https://young-temple-69775.herokuapp.com/",
+    "github": "https://github.com/ikubiti/knowledge-hub",
     "image": "bg-1",
     "color": "text-primary"
   },
@@ -14,9 +14,9 @@
     "color": "text-danger"
   },
   {
-    "title": "Jetset Social",
-    "deployment": "https://serene-beach-93535.herokuapp.com/",
-    "github": "https://github.com/ikubiti/Jet-Set-Social",
+    "title": "Travel Social",
+    "deployment": "https://trasocial-004292627be8.herokuapp.com/",
+    "github": "https://github.com/ikubiti/travel-social",
     "image": "bg-3",
     "color": "text-primary"
   },
