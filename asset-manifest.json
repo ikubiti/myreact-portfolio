@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myreact-portfolio/static/css/main.389f8a91.css",
-    "main.js": "/myreact-portfolio/static/js/main.93d86277.js",
+    "main.css": "/myreact-portfolio/static/css/main.9fe6de16.css",
+    "main.js": "/myreact-portfolio/static/js/main.ac399e2a.js",
     "static/media/secondSS.png": "/myreact-portfolio/static/media/secondSS.0a881e37bf6e3bd998cd.png",
     "static/media/knowledge_hub.png": "/myreact-portfolio/static/media/knowledge_hub.1e015965cc0bd618a0ef.png",
     "static/media/tech_blog.png": "/myreact-portfolio/static/media/tech_blog.1383ec8482368d604bc8.png",
@@ -17,11 +17,11 @@
     "static/media/Isoyor_Kubiti_Resume.pdf": "/myreact-portfolio/static/media/Isoyor_Kubiti_Resume.6db4d732657a018c4453.pdf",
     "static/media/isoyor_icon.png": "/myreact-portfolio/static/media/isoyor_icon.e305999f6fafd58f7167.png",
     "index.html": "/myreact-portfolio/index.html",
-    "main.389f8a91.css.map": "/myreact-portfolio/static/css/main.389f8a91.css.map",
-    "main.93d86277.js.map": "/myreact-portfolio/static/js/main.93d86277.js.map"
+    "main.9fe6de16.css.map": "/myreact-portfolio/static/css/main.9fe6de16.css.map",
+    "main.ac399e2a.js.map": "/myreact-portfolio/static/js/main.ac399e2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.389f8a91.css",
-    "static/js/main.93d86277.js"
+    "static/css/main.9fe6de16.css",
+    "static/js/main.ac399e2a.js"
   ]
 }
